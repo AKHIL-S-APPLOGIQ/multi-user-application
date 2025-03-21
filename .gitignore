@@ -1,0 +1,79 @@
+env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.venv
+.env
+*.envrc
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Logs and debugging
+logs/
+*.log
+debug.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Testing
+.coverage
+.tox/
+nosetests.xml
+pytest_cache/
+
+# Database and migrations
+*.sqlite3
+*.db
+migrations/
+
+# FastAPI and Uvicorn specific
+instance/
+.DS_Store
+*.pid
+*.seed
+*.bak
+*.old
+
+# Ignore compiled Cython files
+*.c
+*.cpp
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Poetry & Pipenv
+.poetry/
+Pipfile.lock
+poetry.lock
+
+# Secrets & Configs
+.env
+config.yaml
+config.json
+secrets.json
+
+# Ignore coverage reports
+htmlcov/
+*.cover
+.coverage
+coverage.xml
+
+# Ignore generated API documentation
+openapi.json
+openapi.yaml
